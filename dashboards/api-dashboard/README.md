@@ -9,7 +9,7 @@ The Strategic Initiatives team managed projects in Planview, but the platform la
 - Managers had to manually click every project card to find the latest status update.
 - Data was copied and pasted into Excel, risking significant manual entry errors.
 - The process was labor-intensive, requiring 2–3 hours of manual work every month.
-![Planview](dashboards/api-dashboard/Planview.png "Planview Interface")
+![Planview](Planview.png "Planview Interface")
 
 ## 🛠️ The Solution (The Technical Process)
 Since native reporting was limited, I took the initiative to coordinate with Planview representatives to identify API capabilities.
@@ -35,4 +35,4 @@ Since native reporting was limited, I took the initiative to coordinate with Pla
 - Executive Visibility: The dashboard is now the primary tool used by leadership for monthly strategic decision-making.
 
 ## 📸 Dashboard Preview
-![Dashboard Preview](dashboards/api-dashboard/MBR%20dashboard.png "Dashboard Preview")
+![Dashboard Preview](MBR%20dashboard.png "Dashboard Preview")
