@@ -32,8 +32,6 @@ SELECT Year, State, Max_Crude_Rate
     WHERE rn = 1
     ORDER BY Year DESC
 
-```
-
 ## 📈 Key Insights & Results
 ### Mortality Trends
 - Successfully isolated the highest mortality rates per state, identifying regional spikes in states like Colorado (2014) and Washington (2013).
