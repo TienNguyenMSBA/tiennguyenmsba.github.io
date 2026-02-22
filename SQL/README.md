@@ -14,7 +14,7 @@ The core of this project focuses on leveraging the SparkSQL engine to perform re
 - Data Sanitization: Implemented SQL filtering to exclude "Unreliable" or "Suppressed" data points, ensuring the integrity of the statistical results.
 - Window Functions: Utilized ROW_NUMBER() and partitioning logic to isolate top-tier records across time-series horizons.
 
-```markdown
+
 <details>
 <summary><b>View SQL Query: Which state has the highest Crude Rate per year?</b></summary>
 
