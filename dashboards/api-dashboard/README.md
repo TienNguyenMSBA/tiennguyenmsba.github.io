@@ -1,15 +1,17 @@
-**Planview to Power BI: Automated MBR Reporting Dashboard**
-***📊 Project Overview***
+# Planview to Power BI: Automated MBR Reporting Dashboard
+
+## 📊 Project Overview
 This project automates the data extraction and visualization process for Monthly Business Reviews (MBR). By replacing a manual, error-prone Excel workflow with a live API connection between Planview (Enterprise Project Management tool) and Power BI, I reduced monthly reporting prep time by 100% (saving 2–3 hours per month) and eliminated manual entry risks.
 
-***🔴 The Problem***
+## 🔴 The Problem
 The Strategic Initiatives team managed projects in Planview, but the platform lacked robust reporting capabilities. To prepare for the Monthly Business Review:
 
 - Managers had to manually click every project card to find the latest status update.
 - Data was copied and pasted into Excel, risking significant manual entry errors.
 - The process was labor-intensive, requiring 2–3 hours of manual work every month.
+![Planview](dashboard/api-dashboard/Planview.png "Planview Interface")
 
-***🛠️ The Solution (The Technical Process)***
+## 🛠️ The Solution (The Technical Process)
 Since native reporting was limited, I took the initiative to coordinate with Planview representatives to identify API capabilities.
 
 1. Data Integration & Architecture
@@ -27,9 +29,10 @@ Since native reporting was limited, I took the initiative to coordinate with Pla
 - Scheduled Refresh: Configured an automated gateway refresh at 5:00 AM daily.
 - PowerPoint Integration: Linked the Power BI live view directly into the MBR slide deck, allowing leadership to view real-time data without leaving their presentation environment.
 
-***🚀 Impact & Results***
+## 🚀 Impact & Results
 - Time Savings: Reduced manual data collection time from 3 hours to 0 minutes.
 - Data Integrity: Eliminated human error from the "copy-paste" reporting method.
 - Executive Visibility: The dashboard is now the primary tool used by leadership for monthly strategic decision-making.
 
-***📸 Dashboard Preview***
+## 📸 Dashboard Preview
+![Dashboard Preview](dashboard/api-dashboard/MBR dashboard.png "Dashboard Preview")

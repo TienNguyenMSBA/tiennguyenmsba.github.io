@@ -1,61 +1,27 @@
-# [Your Name] - Data Analysis Portfolio
+# Tien Nguyen - Data Analysis Portfolio
 
-Welcome! This repository contains the complete template for a professional, one-page data analysis portfolio website, hosted for free on GitHub Pages.
-
-## About This Portfolio Template
-
-This portfolio is designed to demonstrate skills in:
-- Data visualization and storytelling
-- Data modeling and analysis
-- Creating interactive, professional dashboards
-- Transforming complex data into actionable insights
+Your one-stop destination to explore my data analysis projects, skills, and impact. This portfolio showcases my ability to transform complex data into actionable insights through interactive dashboards and compelling storytelling.
 
 ## 🚀 Projects
 
-This template is set up to showcase your best work. You can easily customize the project cards in the `index.html` file.
 
-### Project Title One
-*A brief description of your project, the tools used, and the key insights derived.*
+### Planview to Power BI: Automated MBR Reporting Dashboard
+I automated a manual, three-hour monthly reporting process by engineering a Power BI dashboard that ingest data from Planview via API, and wrote custom DAX logic to track strategic initiatives. This solution eliminated manual entry errors, synchronized real-time project comments, and now provides leadership with a live, 5:00 AM auto-refreshed view directly within their monthly business reviews.
 
-### Project Title Two
-*A brief description of your project, the tools used, and the key insights derived.*
+### Employee Experience Dashboard
+I engineered a SharePoint-integrated Power BI dashboard that synchronized fragmented annual pulse survey data into a unified, drill-down trend analysis to improve employee retention. Additionally, I led the "Weekly Wins" initiative, providing a direct reporting pipeline to the CEO and executive leadership to celebrate departmental achievements and drive organizational culture.
 
-### Project Title Three
-*A brief description of your project, the tools used, and the key insights derived.*
+### Pumpkinmeter: Scalable Movie Recommendations with Apache Spark
+I engineered a scalable movie recommendation engine called Pumpkinmeter using PySpark and the ALS algorithm to process over 27 million data points from the MovieLens dataset. By optimizing cloud infrastructure and implementing multi-tiered data filtering, I reduced training latency and successfully delivered high-precision, personalized content recommendations to a simulated user base of millions.
 
+### Hotel Demand Forecasting
+This project evaluates the forecasting accuracy of FFNN, LSTM, and traditional Pick-up models using historical booking data from three hotels to optimize revenue management strategies. My analysis identified a hybrid approach as the most effective, demonstrating that while Pick-up models excel in short-term operations, FFNN provides the most robust and reliable predictions for medium-to-long-term pricing.
+
+### Opioid Mortality Insights: A PySpark & SparkSQL Big Data Study
+I developed a PySpark-based analytical pipeline that utilizes SparkSQL to process and analyze a 15-year dataset on US opioid mortality trends. By implementing complex SQL window functions and feature engineering, I successfully identified annual regional mortality peaks and established correlations between retail prescription rates and public health outcomes.
 
 ## 🛠️ Skills
-
-Update the `index.html` file to reflect your personal technical skillset. The template is organized into key categories:
-
-- **Data Visualization**: Power BI, Tableau, Matplotlib, etc.
-- **Data Analysis**: SQL, Python (Pandas), R, Excel, etc.
-- **Data Modeling**: Power Query, DAX, Star Schema Design, etc.
-- **Tools**: List any other relevant tools like Power BI Service, specific cloud platforms, etc.
-
-## 💡 How to Use This Template
-
-Creating your own portfolio from this template is a simple, four-step process.
-
-### 1. Create a New Repository from this Template
-Click the green **"Use this template"** button at the top of this repository page, then select **"Create a new repository"**.
-
-### 2. Name Your Repository for GitHub Pages
-This is the most important step. To turn your portfolio into a live website, you **must** name your new repository in the following format:
-`your-username.github.io`
-*(Replace `your-username` with your actual GitHub username.)*
-
-### 3. Customize Your Portfolio
-Open the `index.html` file and begin personalizing it. The file contains helpful `<!--💡UPDATE: ... -->` comments to guide you on where to change:
-- Your name and title
-- Social media links
-- The "About Me" section
-- Your project titles, descriptions, and links
-- Your list of skills
-
-### 4. Add Your Files
-- Upload your profile photo and project preview images to the `assets/images/` folder.
-- Upload your CV (e.g., in PDF format) to the `assets/` folder.
-- Create your favicon and add it to the root folder.
-
-Once you commit your changes, your new portfolio website will be live at `https://your-username.github.io` within a few minutes!
+- **Data Visualization**: Power BI, Tableau
+- **Data Analysis**: SQL, Python, R, Excel, Power Query, DAX, Star Schema Design, etc.
+- **Statistical Analysis**: Regression, Hypothesis Testing, Time Series Analysis, Sensitivity Analysis, Sentiment Analysis, Casual Inference, Demand Forecasting, Customer Segmentation, etc.
+- **Data Engineering**: API Integration, Data Modeling, ETL Processes, Data Warehousing
