@@ -24,4 +24,4 @@ This project transformed fragmented annual employee pulse surveys into a cohesiv
 - Accessibility: Moved the department from "once-a-year" data reviews to a continuous, self-service model of transparency.
 
 ## 📸 Dashboard Preview
-![Dashboard Preview](dashboard/executive dashboard/EX dashboard.png "Dashboard Preview")
+![Dashboard Preview](dashboards/executive-dashboard/EX%20dashboard.png "Dashboard Preview")
