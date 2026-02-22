@@ -14,6 +14,26 @@ The core of this project focuses on leveraging the SparkSQL engine to perform re
 - Data Sanitization: Implemented SQL filtering to exclude "Unreliable" or "Suppressed" data points, ensuring the integrity of the statistical results.
 - Window Functions: Utilized ROW_NUMBER() and partitioning logic to isolate top-tier records across time-series horizons.
 
+```markdown
+<details>
+<summary><b>View SQL Query: Which state has the highest Crude Rate per year?</b></summary>
+
+```sql
+SELECT Year, State, Max_Crude_Rate
+    FROM (
+        SELECT *, ROW_NUMBER() OVER(PARTITION BY Year ORDER BY Max_Crude_Rate DESC) AS rn
+        FROM (
+            SELECT Year, State, MAX(`Crude Rate`) AS Max_Crude_Rate 
+            FROM train_table 
+            WHERE `Crude Rate` != "Unreliable" AND `Crude Rate` != "Suppressed"
+            GROUP BY Year, State
+        ) max_crude_rate_per_year_and_state
+    ) 
+    WHERE rn = 1
+    ORDER BY Year DESC
+
+```
+
 ## 📈 Key Insights & Results
 ### Mortality Trends
 - Successfully isolated the highest mortality rates per state, identifying regional spikes in states like Colorado (2014) and Washington (2013).

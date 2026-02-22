@@ -17,10 +17,11 @@ The project compares the "Industry Standard" against "Modern AI" across differen
 ## 📈 Key Findings
 The models were evaluated using Mean Absolute Scaled Error (MASE) across different time horizons:
 
-|Model| Best Performance Window |Key Strength|
-|Pick-up Model| Short-term (< 30 days) | Highly accurate for immediate operational pricing. |
-|FFNN| Overall Winner | Most robust; maintains accuracy where others fail (22-30 day range). |
-|LSTM| Long-term (> 30 days) | Superior at capturing seasonal trends and cumulative patterns. |
+| Model | Best Performance Window | Key Strength |
+| :--- | :--- | :--- |
+| **Pick-up Model** | Short-term (< 30 days) | Highly accurate for immediate operational pricing. |
+| **FFNN** | Overall Winner | Most robust; maintains accuracy where others fail (22-30 day range). |
+| **LSTM** | Long-term (> 30 days) | Superior at capturing seasonal trends and cumulative patterns. |
 
 - The FFNN Advantage: FFNN emerged as the most reliable model, consistently achieving the lowest error metrics. Unlike other models, it remained stable across all months and lead-time ranges, specifically outperforming others in the critical 22–30 day forecast window.
 
